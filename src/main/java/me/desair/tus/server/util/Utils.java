@@ -98,6 +98,7 @@ public class Utils {
     }
 
 
+    // todo 5 write
     public static void writeSerializable(Serializable object, Path path) throws IOException {
         if (path != null) {
             try (FileChannel channel = FileChannel.open(path, WRITE, CREATE, TRUNCATE_EXISTING)) {
